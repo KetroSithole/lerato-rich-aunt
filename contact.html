@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Lerato Rich Aunt</title>
+  <meta name="description" content="Get in touch with Lerato, the Rich Aunt.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <nav class="nav container">
+      <a href="index.html" class="logo">Lerato <span>Rich Aunt</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Contact</span>
+        <h1>Talk to <em>Auntie.</em></h1>
+        <p>Questions, bookings, speaking requests or just saying hi — send a message below.</p>
+      </div>
+    </section>
+
+    <section class="section-alt">
+      <div class="container contact-grid">
+        <div class="contact-info">
+          <h2>Get in touch</h2>
+          <!-- Replace the placeholder details below -->
+          <dl>
+            <div>
+              <dt>Email</dt>
+              <dd><a href="mailto:hello@example.com">hello@example.com</a></dd>
+            </div>
+            <div>
+              <dt>Socials</dt>
+              <dd><a href="#">Instagram</a> · <a href="#">TikTok</a> · <a href="#">LinkedIn</a></dd>
+            </div>
+            <div>
+              <dt>Based in</dt>
+              <dd>[Your city]</dd>
+            </div>
+          </dl>
+        </div>
+
+        <form id="contact-form" class="form">
+          <label>Your name
+            <input type="text" name="name" required autocomplete="name">
+          </label>
+          <label>Your email
+            <input type="email" name="email" required autocomplete="email">
+          </label>
+          <label>I'm interested in
+            <select name="topic">
+              <option>1:1 Money Mentorship</option>
+              <option>Workshops &amp; Talks</option>
+              <option>The Rich Aunt Circle</option>
+              <option>Something else</option>
+            </select>
+          </label>
+          <label>Message
+            <textarea name="message" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary">Send message</button>
+          <p class="note">This opens your email app with your message ready to send.</p>
+          <p class="form-status" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <a href="index.html" class="logo">Lerato <span>Rich Aunt</span></a>
+        <ul class="footer-links">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">TikTok</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </div>
+      <p class="copyright">© <span data-year></span> Lerato Rich Aunt. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
